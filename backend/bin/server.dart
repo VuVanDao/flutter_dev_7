@@ -43,8 +43,7 @@ Future<Response> _submitHandler(Request request) async {
     // print(await request.readAsString());
     print(payload);
     //giai ma json
-    final data = json.decode(payload);
-    print(data);
+    final data = json.decode(payload); //tra ve 1 map
     //lay gia tri name tu data, ep ve string neu co the
     final name = data['name'] as String?;
     //kiem tra neu name hop le
