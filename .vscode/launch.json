@@ -12,11 +12,11 @@
       "program": "bin/server.dart"
     },
     {
-      "name": "backend",
-      "cwd": "backend",
+      "name": "frontend",
+      "cwd": "frontend",
       "request": "launch",
       "type": "dart",
-      "args": ["-d", "chorme", "--web-port", "8081"]
+      "args": ["-d", "chrome", "--web-port", "8081"]
     }
   ]
 }
